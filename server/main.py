@@ -27,7 +27,7 @@ import json
 import socket
 import time
 
-mqttServerIP = "192.168.1.208"#"127.0.0.1"
+mqttServerIP = "192.168.1.204"#"127.0.0.1"
 mqttServerPort = 1883
 mqttKeepAlive = 600
 mqttTopic = "nxez/cube/dashboard/server"
