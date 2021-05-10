@@ -111,6 +111,6 @@ if __name__ == "__main__":
         }
 
         client.publish(mqttTopic, payload = json.dumps(data), qos = 0)
-        print(json.dumps(data, sort_keys = False, indent = 4, separators = (',', ': ')))
-        time.sleep(5)
+        #print(json.dumps(data, sort_keys = False, indent = 4, separators = (',', ': ')))
+        time.sleep(1)
 
