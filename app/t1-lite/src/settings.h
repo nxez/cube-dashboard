@@ -62,8 +62,8 @@ OLEDDisplayUi ui(&display);
 
 
 // WIFI
-const char* WIFI_SSID = "CMCC";
-const char* WIFI_PWD = "cmcc15821734561";
+const char* WIFI_SSID = "WIFI_SSID";
+const char* WIFI_PWD = "WIFI_PWD";
 
 //MQTT Broker
 char mqttBroker[16] = "192.168.1.232";
